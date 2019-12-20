@@ -36,7 +36,8 @@ li{
     position: fixed;
     right: 50px;
     top: 100px;
-    z-index: -100;
+    z-index: -99;
+    transition: all 1s;
 }
 
 video{

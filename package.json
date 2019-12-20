@@ -1,0 +1,26 @@
+{
+  "name": "portfolio_v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickk00324/portfolio_v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickk00324/portfolio_v3/issues"
+  },
+  "homepage": "https://github.com/nickk00324/portfolio_v3#readme",
+  "devDependencies": {
+    "file-loader": "^5.0.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
