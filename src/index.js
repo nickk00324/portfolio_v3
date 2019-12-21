@@ -4,6 +4,7 @@ import { addLinks } from './links';
 
 import { artPics } from './art_pics';
 import { designPics } from './design_pics';
+import { projectPics } from './project_pics';
 
 const contentGrid = document.getElementById("content-grid");
 contentGrid.addEventListener('click', () => {
@@ -17,6 +18,9 @@ const links = document.getElementsByClassName("content-link");
 window.addEventListener('DOMContentLoaded', (e) =>{
     videoSelector();
     circleMover();
-    addLinks(contentGrid, artPics, links);
-    addLinks(contentGrid, designPics, links);
+    if(links){
+        addLinks(contentGrid, artPics, links);
+        addLinks(contentGrid, designPics, links);
+        addLinks(contentGrid, projectPics, links);
+    } 
 })

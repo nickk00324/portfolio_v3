@@ -75,12 +75,16 @@ a:hover{
 
 #content-grid{
     width: 80vw;
-    margin: 100px auto;
+    margin: 150px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     z-index: 5;
     position: relative;
+}
+
+.content-link{
+    cursor: pointer;
 }
 
 
