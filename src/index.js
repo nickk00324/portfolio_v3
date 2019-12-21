@@ -1,9 +1,22 @@
 import { videoSelector } from './video_loader';
 import { circleMover } from './circle_mover';
-import { addListenersToLinks } from './nav_links';
+import { addLinks } from './links';
+
+import { artPics } from './art_pics';
+import { designPics } from './design_pics';
+
+const contentGrid = document.getElementById("content-grid");
+contentGrid.addEventListener('click', () => {
+    while(contentGrid.firstChild){
+        contentGrid.removeChild(contentGrid.firstChild);
+    }
+});
+
+const links = document.getElementsByClassName("content-link");
 
 window.addEventListener('DOMContentLoaded', (e) =>{
     videoSelector();
     circleMover();
-    addListenersToLinks();
+    addLinks(contentGrid, artPics, links);
+    addLinks(contentGrid, designPics, links);
 })
