@@ -30,5 +30,9 @@ export const projectPics = {
          "please come over": [
            "https://night-hugs.itch.io/please-come-over",
            "assets/imgs/projects/please_come_over/please_come_over.png"
+         ],
+         "doth": [
+           "https://nickk00324.github.io/doth",
+           "assets/imgs/projects/doth/doth.png"
          ]
        };
