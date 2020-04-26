@@ -5,6 +5,8 @@ html, body, h1{
 
 html{
     font-family: 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: #fbe;
 }
 
 h1{
@@ -53,11 +55,11 @@ video{
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #afd;
 }
 
 a:visited{
-    color: #000;
+    color: #afd;
 }
 
 a:hover{
